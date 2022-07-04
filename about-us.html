@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>联系我们</title>
+    <link rel="stylesheet" href="about-us.css">
+    <script rel="script" src="./js/about-us.js"></script>
+    <script src="https://webapi.amap.com/maps?v=1.4.15&key=	100c812c04b52ebf4eb79aeccda17287"></script>
+<!--    <script type="text/javascript" src="https://cache.amap.com/lbs/static/addToolbar.js"></script>-->
+</head>
+<body>
+<header>
+    <div class="logo">
+        <a href="index.html"><img alt="logo" src="imgs/logo.png"></a>
+    </div>
+    <div class="nav">
+        <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="all-class.html">课程分类</a></li>
+            <li><a href="about-us.html">联系我们</a></li>
+        </ul>
+    </div>
+</header>
+
+
+<div class="container">
+    <div id="container"></div>
+<!--    <div class="column"></div>-->
+    <div style="text-align:center">
+        <h2>联系我们</h2>
+        <p>请填写信息:</p>
+    </div>
+    <div class="row">
+        <div class="column">
+            <form action=" ">
+                <label >姓名</label>
+                <input type="text" id="fname" name="name" placeholder="您的称呼..">
+                <label for="phone">联系电话</label>
+                <input type="text" id="phone" name="phone" placeholder="联系电话..">
+                <label for="country">住址</label>
+                <select id="country" name="country">
+                    <option value="bj">武汉市</option>
+                    <option value="sh">襄阳市</option>
+                    <option value="sz">宜昌市</option>
+                </select>
+                <label for="subject">留言</label>
+                <textarea id="subject" name="subject" placeholder="写入一些信息.." style="height:170px"></textarea>
+                <input type="submit" value="提交">
+            </form>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

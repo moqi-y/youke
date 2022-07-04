@@ -1,0 +1,139 @@
+amap://styles/202bda1bb3b7b8e6e6f4cab336d7553e
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*清除列表样式*/
+li {
+    list-style: none;
+}
+
+/*去掉button 默认自带的边框*/
+button {
+    border: none;
+}
+/*清除搜索框默认样式*/
+input{
+    background:none;
+    outline:none;
+    border:none;
+}
+
+/*头部样式*/
+header {
+    margin: 10px 10px;
+    height: 80px;
+    width: auto;
+    /*border: #c3c3c3 solid 1px;*/
+}
+.logo {
+    float: left;
+    margin-right: 60px;
+    margin-top: 10px;
+}
+
+.nav {
+    margin-top: 15px;
+    float: left;
+}
+
+.nav ul li {
+    float: left;
+}
+
+.nav ul li a {
+    display: block;
+    height: 40px;
+    padding: 0 10px;
+    margin-right: 20px;
+    line-height: 40px;
+    font-size: 18px;
+    color: #050505;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    border-bottom: #00b4ff solid 2px;
+    color: #00b4ff;
+}
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    float: left;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+    float: left;
+    width: 40%;
+    margin: 6px 0 0 30px;
+    padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* 响应式布局 */
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+/*地图的大小样式*/
+#container {
+    float: left;
+    width: 50%;
+    height: 600px;
+    margin-top: 6px;
+    padding: 20px;
+}
+#window {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5em;
+    background: #fff;
+    padding: 5px 15px;
+}
